@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <project name="Conpago.Contract" default="build" basedir=".">
-	<description>Conpago.Contract</description>
+	<description>Public contract for Conpago Framework.</description>
 
 	<property name="src" location="src"/>
 	<property name="lib" location="lib"/>
