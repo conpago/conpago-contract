@@ -6,7 +6,7 @@
 	 * Time: 23:53
 	 */
 
-	namespace Saigon\Conpago\Helpers\Contract;
+	namespace Conpago\Helpers\Contract;
 
 	interface IResponse
 	{

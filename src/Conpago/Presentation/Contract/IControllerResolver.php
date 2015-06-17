@@ -6,7 +6,7 @@
 	 * Time: 15:30
 	 */
 
-	namespace Saigon\Conpago\Presentation\Contract;
+	namespace Conpago\Presentation\Contract;
 
 	interface IControllerResolver
 	{

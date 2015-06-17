@@ -6,9 +6,9 @@
 	 * Time: 22:25
 	 */
 
-	namespace Saigon\Conpago\Presentation\Contract;
+	namespace Conpago\Presentation\Contract;
 
-	use Saigon\Conpago\Helpers\Contract\IRequestData;
+	use Conpago\Helpers\Contract\IRequestData;
 
 	interface IController
 	{

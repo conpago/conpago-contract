@@ -6,7 +6,7 @@
 	 * Time: 15:30
 	 */
 
-	namespace Saigon\Conpago\Helpers\Contract;
+	namespace Conpago\Helpers\Contract;
 
 	interface IPasswordHasher
 	{

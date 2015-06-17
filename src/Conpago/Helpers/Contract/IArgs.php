@@ -5,7 +5,7 @@
 	 * Date: 2014-06-18
 	 * Time: 23:32
 	 */
-	namespace Saigon\Conpago\Helpers\Contract;
+	namespace Conpago\Helpers\Contract;
 
 	interface IArgs
 	{

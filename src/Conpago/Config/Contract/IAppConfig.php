@@ -6,7 +6,7 @@
 	 * Time: 21:27
 	 */
 
-	namespace Saigon\Conpago\Config\Contract;
+	namespace Conpago\Config\Contract;
 
 	interface IAppConfig
 	{

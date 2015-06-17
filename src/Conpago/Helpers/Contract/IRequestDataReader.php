@@ -6,7 +6,7 @@
 	 * Time: 07:55
 	 */
 
-	namespace Saigon\Conpago\Helpers\Contract;
+	namespace Conpago\Helpers\Contract;
 
 
 	interface IRequestDataReader

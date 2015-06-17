@@ -6,7 +6,7 @@
 	 * Time: 21:54
 	 */
 
-	namespace Saigon\Conpago\Presentation\Contract;
+	namespace Conpago\Presentation\Contract;
 
 	interface IJsonPresenter
 	{

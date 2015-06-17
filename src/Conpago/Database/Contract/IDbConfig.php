@@ -6,7 +6,7 @@
 	 * Time: 15:30
 	 */
 
-	namespace Saigon\Conpago\Database\Contract;
+	namespace Conpago\Database\Contract;
 
 	interface IDbConfig
 	{

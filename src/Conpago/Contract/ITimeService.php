@@ -6,7 +6,7 @@
 	 * Time: 20:19
 	 */
 
-	namespace Saigon\Conpago\Contract;
+	namespace Conpago\Contract;
 
 	use DateTime;
 

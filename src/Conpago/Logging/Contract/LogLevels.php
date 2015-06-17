@@ -6,7 +6,7 @@
 	 * Time: 19:20
 	 */
 
-	namespace Saigon\Conpago\Logging\Contract;
+	namespace Conpago\Logging\Contract;
 
 	class LogLevels
 	{

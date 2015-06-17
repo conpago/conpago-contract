@@ -1,5 +1,5 @@
 {
-	"name": "saigon/conpago-contract",
+	"name": "conpago/conpago-contract",
 	"description": "Public contract for Conpago Framework.",
 	"version": "0.0.1-alpha",
 	"type": "library",
@@ -22,7 +22,7 @@
 	},
 	"autoload": {
 		"psr-0": {
-			"Saigon\\Conpago\\": "src/"
+			"Conpago\\": "src/"
 		}
 	}
 }

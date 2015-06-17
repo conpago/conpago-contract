@@ -6,7 +6,7 @@
 	 * Time: 19:24
 	 */
 
-	namespace Saigon\Conpago\Logging\Contract;
+	namespace Conpago\Logging\Contract;
 
 	interface ILoggerConfig
 	{

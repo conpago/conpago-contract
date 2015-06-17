@@ -6,7 +6,7 @@
 	 * Time: 15:30
 	 */
 
-	namespace Saigon\Conpago\Contract;
+	namespace Conpago\Contract;
 
 	interface IApp
 	{

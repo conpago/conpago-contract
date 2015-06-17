@@ -6,7 +6,7 @@
 	 * Time: 00:00
 	 */
 
-	namespace Saigon\Conpago\Config\Contract;
+	namespace Conpago\Config\Contract;
 
 	interface IConfig
 	{
