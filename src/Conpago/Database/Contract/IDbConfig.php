@@ -10,11 +10,5 @@
 
 	interface IDbConfig
 	{
-		public function getDriver();
-
-		public function getUser();
-
-		public function getPassword();
-
-		public function getDbName();
+		public function getConfig();
 	}
