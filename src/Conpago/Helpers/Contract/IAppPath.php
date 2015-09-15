@@ -16,6 +16,8 @@
 
 		public function realCache();
 
+		public function realSessions();
+
 		public function realTemplates();
 
 		public function realSource();
@@ -25,6 +27,8 @@
 		public function config();
 
 		public function cache();
+
+		public function sessions();
 
 		public function templates();
 
