@@ -16,7 +16,7 @@
 		 *
 		 * @return void
 		 */
-		function addDebug($message, array $context);
+		function addDebug($message, array $context = []);
 
 		/**
 		 * @param string $message
@@ -24,7 +24,7 @@
 		 *
 		 * @return void
 		 */
-		function addInfo($message, array $context);
+		function addInfo($message, array $context = []);
 
 		/**
 		 * @param string $message
@@ -32,7 +32,7 @@
 		 *
 		 * @return void
 		 */
-		function addNotice($message, array $context);
+		function addNotice($message, array $context = []);
 
 		/**
 		 * @param string $message
@@ -40,7 +40,7 @@
 		 *
 		 * @return void
 		 */
-		function addWarning($message, array $context);
+		function addWarning($message, array $context = []);
 
 		/**
 		 * @param string $message
@@ -48,7 +48,7 @@
 		 *
 		 * @return void
 		 */
-		function addError($message, array $context);
+		function addError($message, array $context = []);
 
 		/**
 		 * @param string $message
@@ -56,7 +56,7 @@
 		 *
 		 * @return void
 		 */
-		function addCritical($message, array $context);
+		function addCritical($message, array $context = []);
 
 		/**
 		 * @param string $message
@@ -64,7 +64,7 @@
 		 *
 		 * @return void
 		 */
-		function addAlert($message, array $context);
+		function addAlert($message, array $context = []);
 
 		/**
 		 * @param string $message
@@ -72,5 +72,5 @@
 		 *
 		 * @return void
 		 */
-		function addEmergency($message, array $context);
+		function addEmergency($message, array $context = []);
 	}
