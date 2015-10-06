@@ -11,4 +11,5 @@
 	interface IAppConfig
 	{
 		function getDefaultInteractor();
+		function getTimeZone();
 	}

@@ -10,5 +10,17 @@
 
 	interface IConfig
 	{
+		/**
+		 * @param $path
+		 *
+		 * @return mixed
+		 */
 		function getValue($path);
+
+		/**
+		 * @param $path
+		 *
+		 * @return bool
+		 */
+		function hasValue($path);
 	}
