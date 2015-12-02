@@ -3,6 +3,8 @@
 	"description": "Public contract for Conpago Framework.",
 	"version": "0.0.1-alpha",
 	"type": "library",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
 	"license": "MIT",
 	"authors": [
 		{
@@ -12,6 +14,7 @@
 		}
 	],
 	"require": {
+		"conpago/conpago-system-contract": "dev-master"
 	},
 	"require-dev": {
 		"pdepend/pdepend": "*",

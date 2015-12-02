@@ -8,29 +8,37 @@
 
 	namespace Conpago\Helpers\Contract;
 
+	use Conpago\File\Contract\IPath;
+
 	interface IAppPath
 	{
-		public function realRoot();
-
-		public function realConfig();
-
-		public function realCache();
-
-		public function realSessions();
-
-		public function realTemplates();
-
-		public function realSource();
-
+		/**
+		 * @return IPath
+		 */
 		public function root();
 
+		/**
+		 * @return IPath
+		 */
 		public function config();
 
+		/**
+		 * @return IPath
+		 */
 		public function cache();
 
+		/**
+		 * @return IPath
+		 */
 		public function sessions();
 
+		/**
+		 * @return IPath
+		 */
 		public function templates();
 
+		/**
+		 * @return IPath
+		 */
 		public function source();
 	}
