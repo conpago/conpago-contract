@@ -16,7 +16,7 @@ namespace Conpago\Config\Contract;
 interface IAppConfig
 {
 
-    function getDefaultInteractor();
+    public function getDefaultInteractor();
 
-    function getTimeZone();
+    public function getTimeZone();
 }

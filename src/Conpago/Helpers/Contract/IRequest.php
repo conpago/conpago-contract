@@ -13,16 +13,19 @@
 
 namespace Conpago\Helpers\Contract;
 
+/**
+ * Provides access to parsed web request data.
+ */
 interface IRequest
 {
 
-    function getRequestMethod();
+    public function getRequestMethod();
 
-    function getPathInfo();
+    public function getPathInfo();
 
-    function getQueryString();
+    public function getQueryString();
 
-    function getContentType();
+    public function getContentType();
 
-    function getBody();
+    public function getBody();
 }

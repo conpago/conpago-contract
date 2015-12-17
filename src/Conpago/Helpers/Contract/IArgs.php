@@ -13,24 +13,41 @@
 
 namespace Conpago\Helpers\Contract;
 
+/**
+ * Provides access to Cli command arguments and options.
+ */
 interface IArgs
 {
 
+    /**
+     * Get arguments.
+     *
+     * @return string[] Returns array with all arguments passed by Cli.
+     */
     public function getArguments();
 
+    /**
+     * Get arguments.
+     *
+     * @return string Returns name of executed script.
+     */
     public function getScript();
 
     /**
-     * @param string $option
+     * Get value of particular option.
      *
-     * @return string
+     * @param string $option Option name.
+     *
+     * @return string Returns value of option with given name.
      */
     public function getOption($option);
 
     /**
-     * @param string $option
+     * Check is particular option set and has value.
      *
-     * @return boolean
+     * @param string $option Option name.
+     *
+     * @return string Returns true if option is set and has value, otherwise false.
      */
     public function hasOption($option);
 }

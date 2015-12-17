@@ -19,20 +19,20 @@ interface IRequestData
     /**
      * @return array
      */
-    function getUrlElements();
+    public function getUrlElements();
 
     /**
      * @return string
      */
-    function getRequestMethod();
+    public function getRequestMethod();
 
     /**
      * @return array
      */
-    function getParameters();
+    public function getParameters();
 
     /**
      * @return string
      */
-    function getFormat();
+    public function getFormat();
 }

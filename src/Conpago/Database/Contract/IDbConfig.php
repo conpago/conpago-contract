@@ -13,8 +13,16 @@
 
 namespace Conpago\Database\Contract;
 
+/**
+ * Provides configuration reader for database connection config.
+ */
 interface IDbConfig
 {
 
+    /**
+     * Get database connection configuration.
+     *
+     * @return mixed Database connection configuration.
+     */
     public function getConfig();
 }

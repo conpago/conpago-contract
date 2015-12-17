@@ -13,8 +13,16 @@
 
 namespace Conpago\Contract;
 
+/**
+ * Provides main Conpago application.
+ */
 interface IApp
 {
 
+    /**
+     * Run application.
+     *
+     * @return void
+     */
     public function run();
 }

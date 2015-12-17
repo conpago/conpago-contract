@@ -13,8 +13,18 @@
 
 namespace Conpago\Helpers\Contract;
 
+/**
+ * Provides ability to set response Http code.
+ */
 interface IResponse
 {
 
-    function setHttpResponseCode($code);
+    /**
+     * Set response code.
+     *
+     * @param integer $code Http response code.
+     *
+     * @return mixed
+     */
+    public function setHttpResponseCode($code);
 }

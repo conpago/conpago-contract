@@ -13,11 +13,16 @@
 
 namespace Conpago\Contract;
 
+/**
+ * Provides ability to read validation result.
+ */
 interface IValidationResult
 {
 
     /**
-     * @return boolean
+     * Check is validation passed.
+     *
+     * @return boolean Returns True if validation is passed, otherwise false.
      */
     public function isValidationPassed();
 }

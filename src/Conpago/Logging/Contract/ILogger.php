@@ -13,70 +13,89 @@
 
 namespace Conpago\Logging\Contract;
 
+/**
+ * Provides way to add messages to log with different logging levels (compatible with PSR-3).
+ */
 interface ILogger
 {
 
     /**
-     * @param string $message
-     * @param array  $context
+     * Add debug level message to log.
+     *
+     * @param string $message Debug message to log.
+     * @param array  $context Context of logging, used to format message string.
      *
      * @return void
      */
-    function addDebug($message, array $context = []);
+    public function addDebug($message, array $context = []);
 
     /**
-     * @param string $message
-     * @param array  $context
+     * Add info level message to log.
+     *
+     * @param string $message Info message to log.
+     * @param array  $context Context of logging, used to format message string.
      *
      * @return void
      */
-    function addInfo($message, array $context = []);
+    public function addInfo($message, array $context = []);
 
     /**
-     * @param string $message
-     * @param array  $context
+     * Add notice level message to log.
+     *
+     * @param string $message Notice message to log.
+     * @param array  $context Context of logging, used to format message string.
      *
      * @return void
      */
-    function addNotice($message, array $context = []);
+    public function addNotice($message, array $context = []);
 
     /**
-     * @param string $message
-     * @param array  $context
+     * Add warning level message to log.
+     *
+     * @param string $message Warning message to log.
+     * @param array  $context Context of logging, used to format message string.
      *
      * @return void
      */
-    function addWarning($message, array $context = []);
+    public function addWarning($message, array $context = []);
 
     /**
-     * @param string $message
-     * @param array  $context
+     * Add error level message to log.
+     *
+     * @param string $message Error message to log.
+     * @param array  $context Context of logging, used to format message string.
      *
      * @return void
      */
-    function addError($message, array $context = []);
+    public function addError($message, array $context = []);
 
     /**
-     * @param string $message
-     * @param array  $context
+     * Add critical level message to log.
+     *
+     * @param string $message Critical message to log.
+     * @param array  $context Context of logging, used to format message string.
      *
      * @return void
      */
-    function addCritical($message, array $context = []);
+    public function addCritical($message, array $context = []);
 
     /**
-     * @param string $message
-     * @param array  $context
+     * Add alert level message to log.
+     *
+     * @param string $message Alert message to log.
+     * @param array  $context Context of logging, used to format message string.
      *
      * @return void
      */
-    function addAlert($message, array $context = []);
+    public function addAlert($message, array $context = []);
 
     /**
-     * @param string $message
-     * @param array  $context
+     * Add emergency level message to log.
+     *
+     * @param string $message Emergency message to log.
+     * @param array  $context Context of logging, used to format message string.
      *
      * @return void
      */
-    function addEmergency($message, array $context = []);
+    public function addEmergency($message, array $context = []);
 }

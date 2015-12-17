@@ -11,41 +11,55 @@
  * @copyright  Copyright (c) 2015, Bartosz Gołek
  */
 
-
 namespace Conpago\Helpers\Contract;
 
 use Conpago\File\Contract\IPath;
 
+/**
+ * Provides access to different application paths.
+ */
 interface IAppPath
 {
 
     /**
-     * @return IPath
+     * Application root directory.
+     *
+     * @return IPath Returns application root directory path
      */
     public function root();
 
     /**
-     * @return IPath
+     * Application configuration directory.
+     *
+     * @return IPath Returns application configuration directory path
      */
     public function config();
 
     /**
-     * @return IPath
+     * Application cache directory.
+     *
+     * @return IPath Returns application cache directory path
      */
     public function cache();
 
     /**
-     * @return IPath
+     * Application sessions directory.
+     *
+     * @return IPath Returns application sessions directory path
      */
     public function sessions();
 
     /**
-     * @return IPath
+     * Application templates directory.
+     *
+     * @return IPath Returns application templates directory path
      */
     public function templates();
 
     /**
-     * @return IPath
+     * Application sources directory.
+     *
+     * @return IPath Returns application sources directory path
      */
     public function source();
 }

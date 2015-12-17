@@ -13,11 +13,16 @@
 
 namespace Conpago\Helpers\Contract;
 
+/**
+ * Provides parser for web requests.
+ */
 interface IRequestParser
 {
 
     /**
-     * @return IRequestData
+     * Parse request data.
+     *
+     * @return IRequestData Parsed request data.
      */
-    function parseRequestData();
+    public function parseRequestData();
 }

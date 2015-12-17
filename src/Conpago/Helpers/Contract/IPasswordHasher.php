@@ -13,8 +13,18 @@
 
 namespace Conpago\Helpers\Contract;
 
+/**
+ * Provides method to generate hash for passwords.
+ */
 interface IPasswordHasher
 {
 
-    function getHash($password);
+    /**
+     * Calculate hash for given password.
+     *
+     * @param string $password Password to generate hash.
+     *
+     * @return string
+     */
+    public function calculateHash($password);
 }

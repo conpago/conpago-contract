@@ -19,5 +19,5 @@ interface IRequestDataReader
     /**
      * @return IRequestData
      */
-    function getRequestData();
+    public function getRequestData();
 }
