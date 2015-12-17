@@ -1,29 +1,36 @@
 <?php
-	/**
-	 * Created by PhpStorm.
-	 * User: Bartosz Gołek
-	 * Date: 2014-06-18
-	 * Time: 23:32
-	 */
-	namespace Conpago\Helpers\Contract;
+/**
+ * Created by PhpStorm.
+ * User: Bartosz Gołek
+ * Date: 2014-06-18
+ * Time: 23:32
+ *
+ * @package    Conpago-Contract
+ * @subpackage Helpers
+ * @author     Bartosz Gołek <bartosz.golek@gmail.com>
+ * @copyright  Copyright (c) 2015, Bartosz Gołek
+ */
 
-	interface IArgs
-	{
-		public function getArguments();
+namespace Conpago\Helpers\Contract;
 
-		public function getScript();
+interface IArgs
+{
 
-		/**
-		 * @param string $option
-		 *
-		 * @return string
-		 */
-		public function getOption($option);
+    public function getArguments();
 
-		/**
-		 * @param string $option
-		 *
-		 * @return bool
-		 */
-		public function hasOption($option);
-	}
+    public function getScript();
+
+    /**
+     * @param string $option
+     *
+     * @return string
+     */
+    public function getOption($option);
+
+    /**
+     * @param string $option
+     *
+     * @return boolean
+     */
+    public function hasOption($option);
+}

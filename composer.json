@@ -1,31 +1,34 @@
 {
-	"name": "conpago/conpago-contract",
-	"description": "Public contract for Conpago Framework.",
-	"version": "0.0.1-alpha",
-	"type": "library",
-	"minimum-stability": "dev",
-	"prefer-stable": true,
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Bartosz Gołek",
-			"email": "bartosz.golek@gmail.com",
-			"homepage": "http://bartosz.golek.biz"
-		}
-	],
-	"require": {
-		"conpago/conpago-system-contract": "dev-master"
-	},
-	"require-dev": {
-		"pdepend/pdepend": "*",
-		"phpmd/phpmd": "*",
-		"squizlabs/php_codesniffer": "*",
-		"sebastian/phpcpd": "*",
-		"phpunit/phpunit": "4.*"
-	},
-	"autoload": {
-		"psr-0": {
-			"Conpago\\": "src/"
-		}
-	}
+  "name": "conpago/conpago-contract",
+  "description": "Public contract for Conpago Framework.",
+  "version": "0.0.1-alpha",
+  "type": "library",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bartosz Gołek",
+      "email": "bartosz.golek@gmail.com",
+      "homepage": "http://bartosz.golek.biz"
+    }
+  ],
+  "require": {
+    "conpago/conpago-system-contract": "dev-master"
+  },
+  "require-dev": {
+	  "conpago/conpago-dev-tools": "dev-master",
+	  "pdepend/pdepend": "2.*",
+	  "phpmd/phpmd": "2.*",
+	  "squizlabs/php_codesniffer": "2.*",
+	  "sebastian/phpcpd": "2.*",
+	  "phpdocumentor/phpdocumentor": "2.*",
+	  "phing/phing": "2.*",
+	  "phploc/phploc": "2.*"
+  },
+  "autoload": {
+    "psr-0": {
+      "Conpago\\": "src/"
+    }
+  }
 }

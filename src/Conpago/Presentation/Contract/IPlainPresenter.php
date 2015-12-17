@@ -1,14 +1,30 @@
 <?php
-	/**
-	 * Created by PhpStorm.
-	 * User: bg
-	 * Date: 13.05.14
-	 * Time: 21:54
-	 */
+/**
+ * Created by PhpStorm.
+ * User: bg
+ * Date: 13.05.14
+ * Time: 21:54
+ *
+ * @package    Conpago-Contract
+ * @subpackage Presentation
+ * @author     Bartosz Gołek <bartosz.golek@gmail.com>
+ * @copyright  Copyright (c) 2015, Bartosz Gołek
+ */
 
-	namespace Conpago\Presentation\Contract;
+namespace Conpago\Presentation\Contract;
 
-	interface IPlainPresenter
-	{
-		function show($data);
-	}
+/**
+ * Provides mechanism to present data as plain text.
+ */
+interface IPlainPresenter
+{
+
+    /**
+     * Show data on output.
+     *
+     * @param mixed $data Data to present.
+     *
+     * @return void
+     */
+    public function show($data);
+}

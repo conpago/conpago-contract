@@ -1,22 +1,28 @@
 <?php
-	/**
-	 * Created by PhpStorm.
-	 * User: Bartosz Gołek
-	 * Date: 09.11.13
-	 * Time: 15:30
-	 */
+/**
+ * Created by PhpStorm.
+ * User: Bartosz Gołek
+ * Date: 09.11.13
+ * Time: 15:30
+ *
+ * @package    Conpago-Contract
+ * @subpackage Helpers
+ * @author     Bartosz Gołek <bartosz.golek@gmail.com>
+ * @copyright  Copyright (c) 2015, Bartosz Gołek
+ */
 
-	namespace Conpago\Helpers\Contract;
+namespace Conpago\Helpers\Contract;
 
-	interface IRequest
-	{
-		function getRequestMethod();
+interface IRequest
+{
 
-		function getPathInfo();
+    function getRequestMethod();
 
-		function getQueryString();
+    function getPathInfo();
 
-		function getContentType();
+    function getQueryString();
 
-		function getBody();
-	}
+    function getContentType();
+
+    function getBody();
+}
