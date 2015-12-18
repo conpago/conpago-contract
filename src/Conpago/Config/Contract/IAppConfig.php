@@ -13,10 +13,23 @@
 
 namespace Conpago\Config\Contract;
 
+/**
+ * Provides access to application configiration options.
+ */
 interface IAppConfig
 {
 
+    /**
+     * Get name of default interactor to run when application is called without interactor specified in request.
+     *
+     * @return string Returns name of interactor.
+     */
     public function getDefaultInteractor();
 
+    /**
+     * Get name of time zone.
+     *
+     * @return string Returns name of time zone.
+     */
     public function getTimeZone();
 }

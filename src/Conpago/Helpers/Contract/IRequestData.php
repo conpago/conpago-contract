@@ -20,9 +20,9 @@ interface IRequestData
 {
 
     /**
+     * Get Url elements.
      *
-     *
-     * @return array
+     * @return string[] Returns array with URL elements.
      */
     public function getUrlElements();
 
@@ -42,7 +42,9 @@ interface IRequestData
     public function getParameters();
 
     /**
-     * @return string
+     * Get format fo request.
+     *
+     * @return string Returns format of request.
      */
     public function getFormat();
 }
