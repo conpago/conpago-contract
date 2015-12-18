@@ -19,13 +19,38 @@ namespace Conpago\Helpers\Contract;
 interface IRequest
 {
 
+    /**
+     * Get request method.
+     *
+     * @return string Returns request method.
+     */
     public function getRequestMethod();
 
+    /**
+     * Get URI path info.
+     *
+     * @return string Returns URI path info.
+     */
     public function getPathInfo();
 
+    /**
+     * Get URI query string.
+     *
+     * @return string Returns URI query string.
+     */
     public function getQueryString();
 
+    /**
+     * Get content type.
+     *
+     * @return string Returns content type.
+     */
     public function getContentType();
 
+    /**
+     * Get request body.
+     *
+     * @return string Returns request body.
+     */
     public function getBody();
 }

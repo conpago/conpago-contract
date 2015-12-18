@@ -13,11 +13,16 @@
 
 namespace Conpago\Helpers\Contract;
 
+/**
+ * Provides reader of request data.
+ */
 interface IRequestDataReader
 {
 
     /**
-     * @return IRequestData
+     * Get request data.
+     *
+     * @return IRequestData Returns request data.
      */
     public function getRequestData();
 }

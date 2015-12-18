@@ -13,21 +13,31 @@
 
 namespace Conpago\Helpers\Contract;
 
+/**
+ * Provides access to parsed request data.
+ */
 interface IRequestData
 {
 
     /**
+     *
+     *
      * @return array
      */
     public function getUrlElements();
 
     /**
-     * @return string
+     * Get request method.
+     *
+     * @return string Returns request method.
      */
     public function getRequestMethod();
 
     /**
-     * @return array
+     * Get request parameters.
+     *
+     * @return array Returns request parameters.
+     * Parameters are read from query string and body (POST/GET) and represented in tree structure.
      */
     public function getParameters();
 
