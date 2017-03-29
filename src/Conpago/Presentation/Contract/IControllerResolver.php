@@ -23,6 +23,8 @@ interface IControllerResolver
      * Get controller instance.
      *
      * @return IController Returns instance of controller.
+     *
+     * @throws MissingRoutingException
      */
     public function getController();
 }

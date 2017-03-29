@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Conpago\Routing\Config\Contract;
+namespace Conpago\Routing\Contract;
 
 
 class MissingRoutingException extends \Exception
