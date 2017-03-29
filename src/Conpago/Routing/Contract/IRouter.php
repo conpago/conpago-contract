@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Conpago\Routing\Config;
+namespace Conpago\Routing\Contract\Config;
 
 use Conpago\Presentation\Contract\IControllerResolver;
 
