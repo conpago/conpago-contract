@@ -16,6 +16,6 @@ namespace Conpago\Presentation\Contract;
 /**
  * Provides mechanism to present data as json object.
  */
-interface IJsonPresenter extends IArrayPresenter
+interface IYamlPresenter extends IArrayPresenter
 {
 }
