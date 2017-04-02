@@ -48,6 +48,13 @@ interface IRequest
     public function getContentType();
 
     /**
+     * Get accept.
+     *
+     * @return string Returns accept header value.
+     */
+    public function getAccept();
+
+    /**
      * Get request body.
      *
      * @return string Returns request body.
