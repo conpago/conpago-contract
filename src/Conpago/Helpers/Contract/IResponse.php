@@ -24,7 +24,16 @@ interface IResponse
      *
      * @param integer $code Http response code.
      *
-     * @return mixed
+     * @return void
      */
     public function setHttpResponseCode($code);
+
+    /**
+     * Set content type.
+     *
+     * @param string $contentType Http content type.
+     *
+     * @return void
+     */
+    public function setContentType($contentType);
 }
